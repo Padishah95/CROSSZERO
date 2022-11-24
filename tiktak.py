@@ -49,7 +49,7 @@ class MainApp(App):
             button.disabled = False
  
     def build(self):
-        self.title = "Дурацкие крестики и нолики от Павла"
+        self.title = "CROSSZERO от Павла"
  
         root = BoxLayout(orientation="vertical", padding=5)
  
@@ -69,7 +69,7 @@ class MainApp(App):
  
         root.add_widget(
             Button(
-               text = "Restart",
+               text = "ДАВАЙ ЗАНОВО БРО",
                size_hint = [1,.1],
                on_press = self.restart
             )
